@@ -37,7 +37,7 @@ variable "availability_zone_2" {
 variable "s3_bucket_name" {
   type        = string
   description = "S3 file name"
-  default     = "terraform-todo-app-files"
+  default     = "terraform-todo-webapp-files"
 }
 
 // ------------------------------ SUBNET VARIABLES ----------------------------------
@@ -272,7 +272,7 @@ variable "db_egress_cidr" {
 variable "iam_role_name" {
   type        = string
   description = "Name of the IAM role for EC2 instances"
-  default     = "ec2-s3-readonly-role"
+  default     = "ec2-s3-read-only-role"
 }
 
 

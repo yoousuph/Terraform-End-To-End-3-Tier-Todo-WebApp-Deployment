@@ -4,7 +4,7 @@ terraform {
 
   // s3 statefile locking
   backend "s3" {
-    bucket       = "three-tier-todo-tf-state-file"
+    bucket       = "three-tier-todo-tf-state-file-1"
     key          = "terrafom.tfstate"
     region       = "us-east-1"
     encrypt      = true
