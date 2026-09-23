@@ -369,7 +369,7 @@ variable "priv_sub_asg_des_cap" {
 variable "iam_instance_profile_name" {
   type        = string
   description = "Name of the IAM instance profile for EC2 instances"
-  default     = "ec2-s3-readonly-profile"
+  default     = "ec2-s3-read-only-profile"
 }
 
 variable "instance_tenancy" {

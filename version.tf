@@ -2,7 +2,7 @@
 terraform {
   required_version = ">= 1.4.0"
 
-  // s3 statefile locking
+  // s3 state file locking
   backend "s3" {
     bucket       = "three-tier-todo-tf-state-file-1"
     key          = "terrafom.tfstate"
@@ -19,3 +19,7 @@ terraform {
     }
   }
 }
+
+
+
+
